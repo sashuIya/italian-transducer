@@ -2,8 +2,11 @@ Overview:
 ---------
 
 This program returns initial forms of the italian words and their parts of speech. UTF8 encoding is recommended.
+
 +N means Noun
+
 +V means Verb
+
 +A means Adjective
 
 Usage:
