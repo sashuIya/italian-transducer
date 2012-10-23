@@ -15,15 +15,23 @@ Usage:
 1. Install `SFST` toolkit
 2. Compile with `make` in `src` folder
 3. Use 
+
 	fst-infl morph.a <file_name>
+	
 to run transducer
 4. If you write the result into output file with name `res` without quotes, then you can change the output view with gen_res utility. To compile it use
+
 	g++ gen_res.cpp
+	
 Warning: there can be some problems with word `no`. The gen_res needs to be fixed.
 6. If you have the right answers for your words and it looks like italian.txt.learn, then you can compare result file and file with right answers using python utility evaluate.py
+
 	python evaluate.py <file_with_right_answer> <result_file>
+	
 for example
+
 	python evaluate.py italian.txt.learn res
+	
 
 Structure:
 ----------
